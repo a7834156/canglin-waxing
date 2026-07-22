@@ -1,100 +1,130 @@
 {
-  "_framework-CXnKph_e.js": {
-    "file": "assets/framework-CXnKph_e.js",
+  "_framework-B8WyT5R3.js": {
+    "file": "assets/framework-B8WyT5R3.js",
     "name": "framework",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js"
     ]
   },
-  "_query-CMEgHEdo.js": {
-    "file": "assets/query-CMEgHEdo.js",
+  "_query-DXglEInB.js": {
+    "file": "assets/query-DXglEInB.js",
     "name": "query"
+  },
+  "_readonly-url-search-params-BRv7ewS0.js": {
+    "file": "assets/readonly-url-search-params-BRv7ewS0.js",
+    "name": "readonly-url-search-params",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-B8WyT5R3.js"
+    ]
   },
   "_rolldown-runtime-S-ySWqyJ.js": {
     "file": "assets/rolldown-runtime-S-ySWqyJ.js",
     "name": "rolldown-runtime"
   },
+  "_url-utils-BAkPrQqo.js": {
+    "file": "assets/url-utils-BAkPrQqo.js",
+    "name": "url-utils"
+  },
   "app/booking-date-gallery.tsx": {
-    "file": "assets/booking-date-gallery-FuSrTReK.js",
+    "file": "assets/booking-date-gallery-tb5S-xj3.js",
     "name": "booking-date-gallery",
     "src": "app/booking-date-gallery.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugi_411db1e72ff1d4e0dfb72e4a8d0c6b6d/node_modules/vinext/dist/shims/image.js",
-      "_framework-CXnKph_e.js"
+      "_framework-B8WyT5R3.js"
+    ]
+  },
+  "app/meta-pixel.tsx": {
+    "file": "assets/meta-pixel-BgetCxoT.js",
+    "name": "meta-pixel",
+    "src": "app/meta-pixel.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-B8WyT5R3.js",
+      "_readonly-url-search-params-BRv7ewS0.js",
+      "_url-utils-BAkPrQqo.js"
     ]
   },
   "app/section-link.tsx": {
-    "file": "assets/section-link-uERL-uYq.js",
+    "file": "assets/section-link-7lEY1u-L.js",
     "name": "section-link",
     "src": "app/section-link.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_framework-CXnKph_e.js"
+      "_framework-B8WyT5R3.js"
     ]
   },
   "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugi_411db1e72ff1d4e0dfb72e4a8d0c6b6d/node_modules/vinext/dist/shims/image.js": {
-    "file": "assets/image-CFgqE4Ha.js",
+    "file": "assets/image-DCkMsdEn.js",
     "name": "image",
     "src": "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugi_411db1e72ff1d4e0dfb72e4a8d0c6b6d/node_modules/vinext/dist/shims/image.js",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_framework-CXnKph_e.js"
+      "_framework-B8WyT5R3.js"
     ]
   },
   "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugi_411db1e72ff1d4e0dfb72e4a8d0c6b6d/node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-LpfykvQO.js",
+    "file": "assets/layout-segment-context-DucdEwNV.js",
     "name": "layout-segment-context",
     "src": "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugi_411db1e72ff1d4e0dfb72e4a8d0c6b6d/node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_framework-CXnKph_e.js"
+      "_framework-B8WyT5R3.js"
     ]
   },
   "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugi_411db1e72ff1d4e0dfb72e4a8d0c6b6d/node_modules/vinext/dist/shims/link.js": {
-    "file": "assets/link-B1OWgnjx.js",
+    "file": "assets/link-B6yjWLRG.js",
     "name": "link",
     "src": "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugi_411db1e72ff1d4e0dfb72e4a8d0c6b6d/node_modules/vinext/dist/shims/link.js",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_framework-CXnKph_e.js",
-      "_query-CMEgHEdo.js"
+      "_framework-B8WyT5R3.js",
+      "_readonly-url-search-params-BRv7ewS0.js",
+      "_url-utils-BAkPrQqo.js",
+      "_query-DXglEInB.js"
     ],
     "dynamicImports": [
       "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugi_411db1e72ff1d4e0dfb72e4a8d0c6b6d/node_modules/vinext/dist/shims/router.js"
     ]
   },
   "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugi_411db1e72ff1d4e0dfb72e4a8d0c6b6d/node_modules/vinext/dist/shims/router.js": {
-    "file": "assets/router-BXBqhsds.js",
+    "file": "assets/router-CMk_9443.js",
     "name": "router",
     "src": "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugi_411db1e72ff1d4e0dfb72e4a8d0c6b6d/node_modules/vinext/dist/shims/router.js",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_framework-CXnKph_e.js",
-      "_query-CMEgHEdo.js"
+      "_framework-B8WyT5R3.js",
+      "_url-utils-BAkPrQqo.js",
+      "_query-DXglEInB.js"
     ],
     "dynamicImports": [
-      "_framework-CXnKph_e.js"
+      "_framework-B8WyT5R3.js"
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-CdEXOpqR.js",
+    "file": "assets/index--7cqwejn.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_framework-CXnKph_e.js"
+      "_framework-B8WyT5R3.js",
+      "_readonly-url-search-params-BRv7ewS0.js",
+      "_url-utils-BAkPrQqo.js"
     ],
     "dynamicImports": [
+      "app/meta-pixel.tsx",
       "virtual:vinext-app-browser-entry",
       "app/booking-date-gallery.tsx",
       "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugi_411db1e72ff1d4e0dfb72e4a8d0c6b6d/node_modules/vinext/dist/shims/image.js",
